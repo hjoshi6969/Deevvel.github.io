@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devvel</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script2.js"></script>
+</head>
+<body>
+    <main>
+        <div id="contatUs">
+            <h1>
+                Contact US 
+            </h1>
+        </div>
+        <fieldset>
+            <ul>
+                <li>
+                    <div>
+                        <label for="FullName">Full Name</label>
+                    </div>
+                    <div>
+                        <input type="text" name="FullName" id="FullName">
+                        <p class="error" id="FullNameError">*required</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <label for="phoneNumber">Phone Number</label>
+                    </div>
+                    <div>
+                        <input type="text" name="phoneNumber" id="phoneNumber">
+                        <p class="error" id="phoneNumberError">*required</p>
+                        <p class="error" id="invalid_phoneNumber">*invalid entry</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <label for="email">Email</label>
+                    </div>
+                    <div>
+                        <input type="text" name="email" id="email">
+                        <p class="error" id="EmailError">*required</p>
+                        <p class="error" id="invalid_email">*invalid entry</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <label for="ask">Ask anything</label>
+                    </div>
+                    <div>
+                        <textarea name="ask" id="ask" cols="30" rows="10"></textarea>
+                    </div>
+                </li>
+            </ul>
+            <div id="buttonContainer">
+                <div>
+                    <button class="button" id="subbmit">Submit</button>
+                </div>
+                <div>
+                    <button class="button" id="reset">Reset</button>
+                </div>
+            </div>
+        </fieldset>
+    </main>
+</body>
+</html>
